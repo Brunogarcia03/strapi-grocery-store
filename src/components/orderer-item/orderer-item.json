@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_orderer_item_orderer_items",
+  "info": {
+    "displayName": "OrdererItem",
+    "icon": "shoppingCart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "decimal"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}
